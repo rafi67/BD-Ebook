@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main9Activity"
+    android:background="#2B2B2B">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="Science"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Higher math"
+        android:background="#FFC619"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Krishi Sikkah"
+        android:layout_marginTop="10dp"
+        android:background="#FFC619"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="biology"
+        android:layout_marginTop="10dp"
+        android:background="#FFC619"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Chemistry"
+        android:layout_marginTop="10dp"
+        android:background="#FFC619"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="physics"
+        android:layout_marginTop="10dp"
+        android:background="#FFC619"
+        android:textColor="#fff"/>
+
+</LinearLayout>

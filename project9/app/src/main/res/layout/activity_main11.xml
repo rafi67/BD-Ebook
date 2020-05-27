@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main11Activity"
+    android:background="#2B2B2B">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginLeft="170dp"
+            android:text="Arts"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Bangladesher etihas o biswa sovvota"
+        android:background="#FFC619"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Science Class"
+        android:background="#FFC619"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

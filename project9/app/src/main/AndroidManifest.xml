@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rafi.bde_book">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Main3Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Main4Activity"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Main5Activity"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Main6Activity"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Main7Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Main8Activity"
+            android:parentActivityName=".Main7Activity" />
+        <activity
+            android:name=".Main9Activity"
+            android:parentActivityName=".Main8Activity" />
+        <activity
+            android:name=".Main10Activity"
+            android:parentActivityName=".Main8Activity" />
+        <activity
+            android:name=".Main11Activity"
+            android:parentActivityName=".Main8Activity" />
+        <activity
+            android:name=".Main12Activity"
+            android:parentActivityName=".Main8Activity" />
+        <activity
+            android:name=".Main13Activity"
+            android:parentActivityName=".Main9Activity" />
+        <activity
+            android:name=".Main14Activity"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Main15Activity"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Main16Activity"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Main17Activity"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Main19Activity"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Main20Activity"
+            android:parentActivityName=".Main15Activity" />
+        <activity
+            android:name=".Main21Activity"
+            android:parentActivityName=".Main15Activity" />
+        <activity
+            android:name=".Main22Activity"
+            android:parentActivityName=".Main15Activity" />
+        <activity
+            android:name=".Main23Activity"
+            android:parentActivityName=".Main15Activity" />
+        <activity
+            android:name=".Main24Activity"
+            android:parentActivityName=".Main15Activity" />
+        <activity
+            android:name=".Main25Activity"
+            android:parentActivityName=".Main15Activity" />
+        <activity
+            android:name=".Main26Activity"
+            android:parentActivityName=".Main15Activity" />
+        <activity
+            android:name=".Main27Activity"
+            android:parentActivityName=".Main16Activity" />
+        <activity
+            android:name=".Main18Activity"
+            android:parentActivityName=".Main5Activity" />
+        <activity
+            android:name=".Main28Activity"
+            android:parentActivityName=".Main16Activity" />
+        <activity
+            android:name=".Main29Activity"
+            android:parentActivityName=".Main16Activity" />
+        <activity
+            android:name=".Main30Activity"
+            android:parentActivityName=".Main16Activity" />
+        <activity
+            android:name=".Main31Activity"
+            android:parentActivityName=".Main16Activity" />
+        <activity
+            android:name=".Main32Activity"
+            android:parentActivityName=".Main9Activity" />
+        <activity
+            android:name=".Main33Activity"
+            android:parentActivityName=".Main9Activity" />
+        <activity
+            android:name=".Main34Activity"
+            android:parentActivityName=".Main9Activity" />
+        <activity
+            android:name=".Main35Activity"
+            android:parentActivityName=".Main9Activity" />
+        <activity
+            android:name=".Main36Activity"
+            android:parentActivityName=".Main9Activity" />
+        <activity
+            android:name=".Main37Activity"
+            android:parentActivityName=".Main10Activity" />
+        <activity
+            android:name=".Main38Activity"
+            android:parentActivityName=".Main11Activity" />
+        <activity
+            android:name=".Main39Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main40Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main41Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main42Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main43Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main44Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main45Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main46Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main47Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main48Activity"
+            android:parentActivityName=".Main12Activity" />
+        <activity
+            android:name=".Main49Activity"
+            android:parentActivityName=".HomeActivity" />
+    </application>
+
+</manifest>
